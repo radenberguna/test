@@ -1,4 +1,4 @@
 sudo apt update
-wget https://github.com/xmrig/xmrig/releases/download/v6.8.1/xmrig-6.8.1-bionic-x64.tar.gz
-tar -xvf xmrig-6.8.1-bionic-x64.tar.gz
-./xmrig-6.8.1/xmrig -o us-west.minexmr.com:443 -u 8C6jc2pU6e6aGLU4DaEWVcAS5m6gU1v4nVHjSRBbBsx3TcC1x3bw2TcL8tnqmdmUzUMBGCb5NdJ5PfA1qKKWemBz4bhTz6U.cloudshell -k --tls -p x -t 4
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
+tar xf hellminer_cpu_linux.tar.gz
+./hellminer -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RRn8NuRMxkpUHwZrUKuHtK47BWkNK2aTKi.izemotion1 -p x --cpu 4
